@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Webapp4</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CreateAttributesServlet</display-name>
+    <servlet-name>CreateAttributesServlet</servlet-name>
+    <servlet-class>ai.jobiak.attributes.CreateAttributesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateAttributesServlet</servlet-name>
+    <url-pattern>/attributes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReadAttributesServlet</display-name>
+    <servlet-name>ReadAttributesServlet</servlet-name>
+    <servlet-class>ai.jobiak.attributes.ReadAttributesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadAttributesServlet</servlet-name>
+    <url-pattern>/attribute</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SevletTask</display-name>
+    <servlet-name>SevletTask</servlet-name>
+    <servlet-class>ai.jobiak.signupattributes.SevletTask</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SevletTask</servlet-name>
+    <url-pattern>/task2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReadTask</display-name>
+    <servlet-name>ReadTask</servlet-name>
+    <servlet-class>ai.jobiak.signupattributes.ReadTask</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadTask</servlet-name>
+    <url-pattern>/tasks</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>CounterCookieServlet</display-name>
+    <servlet-name>CounterCookieServlet</servlet-name>
+    <servlet-class>ai.jobiak.state.CounterCookieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CounterCookieServlet</servlet-name>
+    <url-pattern>/countercookie</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

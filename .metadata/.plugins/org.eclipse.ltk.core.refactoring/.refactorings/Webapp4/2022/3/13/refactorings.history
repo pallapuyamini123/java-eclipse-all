@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Webapp4&apos;&#x0D;&#x0A;- Original project: &apos;Webapp4&apos;&#x0D;&#x0A;- Original element: &apos;ai.jobiak.state.CountercookieServlet.java&apos;" description="Delete element" element1="/src\/main\/java&lt;ai.jobiak.state{CountercookieServlet.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1648133857317" subPackages="false" version="1.0"/>
+</session>
